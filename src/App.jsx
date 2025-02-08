@@ -1,14 +1,18 @@
-import React from 'react'
+// App.js
+import React from 'react';
+import ProductList from './Components/ProductList';
+import ShoppingCart from './Components/ShoppingCart';
 import './App.css'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      
-        
-    </>
-  )
-}
+ 
+      <div>
+        <h1 className='app-heading'>E-Commerce Application</h1>
+        <ProductList />
+        <ShoppingCart />
+      </div>
 
-export default App
+  );
+};
+
+export default App;
